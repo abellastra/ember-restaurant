@@ -13,7 +13,7 @@ export default function About() {
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           className="relative h-[500px]"
         >
           <Image
@@ -31,7 +31,7 @@ export default function About() {
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
         >
           <p className="text-yellow-400 tracking-[0.3em] text-sm mb-4">
             NUESTRA HISTORIA
